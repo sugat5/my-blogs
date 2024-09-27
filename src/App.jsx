@@ -1,9 +1,9 @@
-import './App.css'
-
+import CustomNavBar from "./components/customNavBar"
 function App() {
   return (
     <>
-      <h1>My Blogs</h1>
+    <CustomNavBar/>
+      {/* <h1>My Blogs</h1> */}
     </>
   )
 }
